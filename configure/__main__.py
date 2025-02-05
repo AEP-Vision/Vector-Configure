@@ -3,19 +3,11 @@
 """
 ***New Vector SDK Setup***
 
-Vector requires all requests be authorized by an authenticated Anki user.
-
-This script will enable this device to authenticate with your Vector
-robot for use with a Vector Python SDK program.
-
 Vector must be powered on and connected on the same network as your
-computer. By running this script, you will be asked to provide your
-Anki account credentials, and the script will download an authentication
-token and cert that will grant you access to the robot and his
-capabilities (such as camera and audio) as well as data stored on the
-robot (such as faces and photos).
-
-See the README for more information.
+computer. By running this script, you will be asked to provide various
+Vector details, and the script will download an authentication token
+and cert that will grant you access to the robot and his capabilities
+(such as camera and audio) as well as data stored on the robot (such as faces and photos).
 
 Use of Vector and the New Vector SDK is subject to Anki's Privacy Policy and Terms and Conditions.
 
@@ -264,7 +256,7 @@ def write_config(serial, cert_file=None, ip=None, name=None, guid=None, clear=Tr
 
 
 def main(api):
-    parser = argparse.ArgumentParser(description=("Vector requires all requests be authorized by an authenticated Anki user. "
+    parser = argparse.ArgumentParser(description=("Welcome to the New Vector SDK. Vector requires all requests be authorized. "
                                                   "This script will enable this device to authenticate with your Vector "
                                                   "robot for use with a Vector Python SDK program."),
                                      epilog=("See the README for more information. "
