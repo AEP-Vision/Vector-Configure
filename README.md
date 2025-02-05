@@ -1,14 +1,10 @@
-# Anki Vector - Python SDK
+# New Vector SDK
 
 ![Vector](docs/source/images/vector-sdk-alpha.jpg)
 
-Learn more about Vector: https://www.anki.com/en-us/vector
+Learn more about Vector: https://anki.bot/products/vector-robot
 
-Learn more about the SDK: https://developer.anki.com/
-
-SDK documentation: https://developer.anki.com/vector/docs/index.html
-
-Forums: https://forums.anki.com/
+New Vector SDK Docs: https://new-vector-sdk.AEP-Vision.github.io/docs
 
 
 ## Getting Started
@@ -21,4 +17,4 @@ following the instructions in the `docs` folder of this project.
 
 ## Privacy Policy and Terms and Conditions
 
-Use of Vector and the Vector SDK is subject to Anki's [Privacy Policy](https://www.anki.com/en-us/company/privacy) and [Terms and Conditions](https://www.anki.com/en-us/company/terms-and-conditions).
+Use of Vector and the New Vector SDK is subject to Anki's [Privacy Policy](https://anki.bot/policies/privacy-policy) and [Terms of Service](https://anki.bot/policies/terms-of-service).

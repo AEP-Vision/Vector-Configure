@@ -15,11 +15,9 @@
 """
 The Vector SDK gives you direct access to Vector's unprecedented set of advanced sensors, AI capabilities, and robotics technologies including computer vision, intelligent mapping and navigation, and a groundbreaking collection of expressive animations.
 
-It's powerful but easy to use, complex but not complicated, and versatile enough to be used across a wide range of domains including enterprise, research, and entertainment. Find out more at https://developer.anki.com
+It's powerful but easy to use, complex but not complicated, and versatile enough to be used across a wide range of domains including enterprise, research, and entertainment.
 
-Vector SDK documentation: https://developer.anki.com/vector/docs/
-
-Official developer forum: https://forums.anki.com/
+Vector SDK documentation: https://support.digitaldreamlabs.com/category/34-sdk-information
 
 Requirements:
     * Python 3.6.1 or later
@@ -55,11 +53,11 @@ def get_requirements():
 setup(
     name='anki_vector',
     version=VERSION,
-    description="The Vector SDK is a connected vision- and character-based robotics platform for everyone.",
+    description="The New Vector SDK is a connected vision- and character-based robotics platform for everyone.",
     long_description=__doc__,
-    url='https://developer.anki.com',
+    url='https://anki.bot',
     author='Anki, Inc',
-    author_email='developer@anki.com',
+    author_email='support@digitaldreamlabs.com',
     license='Apache License, Version 2.0',
     # See https://pypi.python.org/pypi?%3Aaction=list_classifiers
     classifiers=[
