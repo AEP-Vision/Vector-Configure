@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-#! Updated to connect to DDL/Anki on Feb 5 2025 by Jackson Schultz !
 
 """
 ***Vector SDK Setup***
@@ -86,7 +85,7 @@ def get_serial(serial=None):
     print("Using robot serial number: {}".format(colored(serial, "cyan")))
     return serial
 
-
+# Updated to connect to DDL/Anki (@AEP-Vision, 2/5/2025)
 def get_cert(serial=None):
     serial = get_serial(serial)
     print("\nDownloading Vector certificate from Anki...", end="")
