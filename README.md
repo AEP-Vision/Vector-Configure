@@ -1,4 +1,4 @@
-![Vector](https://github.com/anki/vector-python-sdk/blob/master/docs/source/images/vector-sdk-alpha.jpg)
+![Vector](https://github.com/AEP-Vision/Icelite/blob/main/cdn/img/config2.png)
 
 ### How to Use
 Replace anki_vector/configure (``pip install anki_vector`` if not already installed) with the new configure folder (Download [HERE](https://github.com/AEP-Vision/New-Vector-SDK/archive/refs/heads/master.zip)).
