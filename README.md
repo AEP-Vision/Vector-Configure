@@ -1,4 +1,4 @@
-![Vector](docs/source/images/vector-sdk-alpha.jpg)
+![Vector](https://github.com/anki/vector-python-sdk/blob/master/docs/source/images/vector-sdk-alpha.jpg?raw=true)
 
 [Learn more about Vector](https://anki.bot/products/vector-robot)
 
