@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """
-***Anki Vector Python SDK Setup***
+***New Vector SDK Setup***
 
 Vector requires all requests be authorized by an authenticated Anki user.
 

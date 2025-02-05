@@ -13,11 +13,9 @@
 # limitations under the License.
 
 """
-The Vector SDK gives you direct access to Vector's unprecedented set of advanced sensors, AI capabilities, and robotics technologies including computer vision, intelligent mapping and navigation, and a groundbreaking collection of expressive animations.
+The New Vector SDK gives you direct access to Vector's unprecedented set of advanced sensors, AI capabilities, and robotics technologies including computer vision, intelligent mapping and navigation, and a groundbreaking collection of expressive animations.
 
 It's powerful but easy to use, complex but not complicated, and versatile enough to be used across a wide range of domains including enterprise, research, and entertainment.
-
-Vector SDK documentation: https://support.digitaldreamlabs.com/category/34-sdk-information
 
 Requirements:
     * Python 3.6.1 or later
