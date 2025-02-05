@@ -2,7 +2,7 @@
 #! Updated to connect to DDL/Anki on Feb 5 2025 by Jackson Schultz !
 
 """
-***Configure 2.0 Setup***
+***Vector SDK Setup***
 
 Vector must be powered on and connected on the same network as your
 computer. By running this script, you will be asked to provide various
