@@ -61,7 +61,7 @@ class Api:
                 'User-Agent': f'Vector-sdk/{anki_vector.__version__}',
                 'Anki-App-Key': 'aung2ieCho3aiph7Een3Ei'
             },
-            url='https://accounts.api.anki.com/1/sessions'
+            url='https://accounts.api.ddl.io/1/sessions'
         )
 
     @property
@@ -90,7 +90,7 @@ def get_cert(serial=None):
     serial = get_serial(serial)
     print("\nDownloading Vector certificate from Anki...", end="")
     sys.stdout.flush()
-    r = requests.get('https://session-certs.token.global.anki-services.com/vic/{}'.format(serial))
+    r = requests.get('https://device-cert.api.ddl.io/vic/{}'.format(serial))
     if r.status_code != 200:
         print(colored(" ERROR", "red"))
         sys.exit(r.content)
