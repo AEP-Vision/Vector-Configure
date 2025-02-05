@@ -66,7 +66,7 @@ class Api:
 
     @property
     def name(self):
-        return "Anki Cloud"
+        return "Stratus"
 
     @property
     def handler(self):
@@ -137,7 +137,7 @@ def user_authentication(session_id: bytes, cert: bytes, ip: str, name: str) -> s
 
 
 def get_session_token(api, username=None):
-    print("Enter your email and password. Make sure to use the same account that was used to set up your Vector.")
+    print("Enter your Stratus email and password.")
     if not username:
         username = input("Enter Email: ")
     else:
