@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """
-***Vector SDK Setup***
+***Vector SDK Setup (Configure 2.0)***
 
 Vector must be powered on and connected on the same network as your
 computer. By running this script, you will be asked to provide various
@@ -256,7 +256,7 @@ def write_config(serial, cert_file=None, ip=None, name=None, guid=None, clear=Tr
 
 
 def main(api):
-    parser = argparse.ArgumentParser(description=("CONFIGURE 2.0: Vector requires all requests be authorized. "
+    parser = argparse.ArgumentParser(description=("Vector requires all requests be authorized. "
                                                   "This script will enable this device to authenticate with your Vector "
                                                   "robot for use with a Vector Python SDK program."),
                                      epilog=("See the README for more information. "
