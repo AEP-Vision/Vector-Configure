@@ -60,7 +60,7 @@ class Api:
         self._handler = ApiHandler(
             headers={
                 'User-Agent': f'Vector-sdk/{anki_vector.__version__}',
-                'Anki-App-Key': 'aung2ieCho3aiph7Een3Ei'
+                'Anki-App-Key': 'oDoa0quieSeir6goowai7f'
             },
             url='https://accounts.api.ddl.io/1/sessions'
         )
