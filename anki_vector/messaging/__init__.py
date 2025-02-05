@@ -13,7 +13,7 @@
 # limitations under the License.
 
 """
-Protobuf and gRPC messages exposed to the Vector Python SDK.
+Protobuf and gRPC messages exposed to the New Vector SDK.
 
 .. warning::
 

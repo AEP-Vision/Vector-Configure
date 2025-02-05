@@ -17,10 +17,10 @@ robot (such as faces and photos).
 
 See the README for more information.
 
-Use of Vector and the Vector SDK is subject to Anki's Privacy Policy and Terms and Conditions.
+Use of Vector and the New Vector SDK is subject to Anki's Privacy Policy and Terms and Conditions.
 
-https://www.anki.com/en-us/company/privacy
-https://www.anki.com/en-us/company/terms-and-conditions
+https://anki.bot/policies/privacy-policy
+https://anki.bot/policies/terms-of-service
 
 """
 
@@ -123,7 +123,7 @@ def user_authentication(session_id: bytes, cert: bytes, ip: str, name: str) -> s
     except grpc.FutureTimeoutError:
         print(colored(" ERROR", "red"))
         sys.exit("\nUnable to connect to Vector\n"
-                 "Please be sure to connect via the Vector companion app first, and connect your computer to the same network as your Vector.")
+                 "Please be sure to connect via https://vector-setup.ddl.io/ first, and connect your computer to the same network as your Vector.")
 
     try:
         interface = messaging.client.ExternalInterfaceStub(channel)
@@ -134,7 +134,7 @@ def user_authentication(session_id: bytes, cert: bytes, ip: str, name: str) -> s
         if response.code != messaging.protocol.UserAuthenticationResponse.AUTHORIZED:  # pylint: disable=no-member
             print(colored(" ERROR", "red"))
             sys.exit("\nFailed to authorize request:\n"
-                     "Please be sure to first set up Vector using the companion app.")
+                     "Please be sure to first set up Vector using https://vector-setup.ddl.io/.")
     except grpc.RpcError as e:
         print(colored(" ERROR", "red"))
         sys.exit("\nFailed to authorize request:\n"
@@ -191,7 +191,7 @@ def get_name_and_ip(robot_name=None, ip=None):
         ip = os.environ.get('ANKI_ROBOT_HOST')
         if not ip:
             print("\n\nFind your robot ip address (ex. 192.168.42.42) by placing Vector on the charger, double-clicking Vector's backpack button,\n"
-                  "then raising and lowering his arms. If you see {} on his face, reconnect Vector to your WiFi using the Vector Companion App.".format(colored("XX.XX.XX.XX", "red")))
+                  "then raising and lowering his arms. If you see {} on his face, reconnect Vector to your WiFi using https://vector-setup.ddl.io/".format(colored("XX.XX.XX.XX", "red")))
             ip = input("Enter robot ip: ")
         else:
             print("Found robot ip address in environment variable '{}'".format(colored("ANKI_ROBOT_HOST", "green")))
@@ -268,16 +268,16 @@ def main(api):
                                                   "This script will enable this device to authenticate with your Vector "
                                                   "robot for use with a Vector Python SDK program."),
                                      epilog=("See the README for more information. "
-                                             "Use of Vector and the Vector SDK is subject to Anki's Privacy Policy and Terms and Conditions. "
-                                             "https://www.anki.com/en-us/company/privacy and "
-                                             "https://www.anki.com/en-us/company/terms-and-conditions"))
-    parser.add_argument("-e", "--email", help="The email used by your Anki account.")
+                                             "Use of Vector and the New Vector SDK is subject to Anki's Privacy Policy and Terms of Service. "
+                                             "https://anki.bot/policies/privacy-policy and "
+                                             "https://anki.bot/policies/terms-of-service"))
+    parser.add_argument("-e", "--email", help="The email used by your Stratus account.")
     parser.add_argument("-i", "--ip", help=("Your robot ip address (ex. 192.168.42.42). "
                                             "It may be found by placing Vector on the charger, "
                                             "double-clicking Vector's backpack button, "
                                             "then raising and lowering his arms. "
                                             "If you see {} on his face, "
-                                            "reconnect Vector to your WiFi using the Vector Companion App.".format(colored("XX.XX.XX.XX", "red"))))
+                                            "reconnect Vector to your WiFi using https://vector-setup.ddl.io/".format(colored("XX.XX.XX.XX", "red"))))
     parser.add_argument("-n", "--name", help=("Your robot name (ex. Vector-A1B2). "
                                               "It may be found by placing Vector on the charger and double-clicking Vector's backpack button."))
     parser.add_argument("-s", "--serial", help=("Your robot serial number (ex. 00e20100). "

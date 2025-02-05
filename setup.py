@@ -1,4 +1,4 @@
-# Copyright (c) 2018 Anki, Inc.
+# Copyright (c) 2025 Anki
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -54,7 +54,7 @@ setup(
     description="The New Vector SDK is a connected vision- and character-based robotics platform for everyone.",
     long_description=__doc__,
     url='https://anki.bot',
-    author='Anki, Inc',
+    author='Anki',
     author_email='support@digitaldreamlabs.com',
     license='Apache License, Version 2.0',
     # See https://pypi.python.org/pypi?%3Aaction=list_classifiers
@@ -66,7 +66,7 @@ setup(
         'Programming Language :: Python :: 3.6',
     ],
     zip_safe=True,
-    keywords='anki vector robot robotics sdk ai vision'.split(),
+    keywords='new anki vector robot robotics sdk ai vision'.split(),
     packages=['anki_vector', 'anki_vector.camera_viewer', 'anki_vector.configure', 'anki_vector.messaging', 'anki_vector.opengl', 'anki_vector.reserve_control'],
     package_data={
         'anki_vector': ['LICENSE.txt', 'opengl/assets/*.obj', 'opengl/assets/*.mtl', 'opengl/assets/*.jpg',
