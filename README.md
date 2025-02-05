@@ -4,7 +4,7 @@
 
 Learn more about Vector: https://anki.bot/products/vector-robot
 
-New Vector SDK Docs: https://new-vector-sdk.AEP-Vision.github.io/docs
+New Vector SDK Docs: https://AEP-Vision.github.io/new-vector-sdk/docs
 
 
 ## Getting Started
