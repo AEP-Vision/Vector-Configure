@@ -2,9 +2,9 @@
 
 ![Vector](docs/source/images/vector-sdk-alpha.jpg)
 
-Learn more about Vector: https://anki.bot/products/vector-robot
+[Learn more about Vector](https://anki.bot/products/vector-robot)
 
-New Vector SDK Docs: https://AEP-Vision.github.io/new-vector-sdk/docs
+[New Vector SDK Docs](https://AEP-Vision.github.io/new-vector-sdk/docs)
 
 
 ## Getting Started
