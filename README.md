@@ -9,7 +9,7 @@ New Vector SDK Docs: https://AEP-Vision.github.io/new-vector-sdk/docs
 
 ## Getting Started
 
-You can follow steps [here](https://developer.anki.com/vector/docs/index.html) to set up your Vector robot with the SDK.
+You can follow steps [here](https://AEP-Vision.github.io/new-vector-sdk/docs) to set up your Vector robot with the SDK.
 
 You can also generate a local copy of the SDK documetation by
 following the instructions in the `docs` folder of this project.
