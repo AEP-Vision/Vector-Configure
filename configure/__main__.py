@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
+#! Updated to connect to DDL/Anki on Feb 5 2025 by Jackson Schultz !
 
 """
-***New Vector SDK Setup***
+***Configure 2.0 Setup***
 
 Vector must be powered on and connected on the same network as your
 computer. By running this script, you will be asked to provide various
@@ -9,7 +10,7 @@ Vector details, and the script will download an authentication token
 and cert that will grant you access to the robot and his capabilities
 (such as camera and audio) as well as data stored on the robot (such as faces and photos).
 
-Use of Vector and the New Vector SDK is subject to Anki's Privacy Policy and Terms and Conditions.
+Use of Vector and the Vector SDK is subject to Anki's Privacy Policy and Terms and Conditions.
 
 https://anki.bot/policies/privacy-policy
 https://anki.bot/policies/terms-of-service
@@ -256,11 +257,11 @@ def write_config(serial, cert_file=None, ip=None, name=None, guid=None, clear=Tr
 
 
 def main(api):
-    parser = argparse.ArgumentParser(description=("Welcome to the New Vector SDK. Vector requires all requests be authorized. "
+    parser = argparse.ArgumentParser(description=("Vector requires all requests be authorized. "
                                                   "This script will enable this device to authenticate with your Vector "
                                                   "robot for use with a Vector Python SDK program."),
                                      epilog=("See the README for more information. "
-                                             "Use of Vector and the New Vector SDK is subject to Anki's Privacy Policy and Terms of Service. "
+                                             "Use of Vector and the Vector SDK is subject to Anki's Privacy Policy and Terms of Service. "
                                              "https://anki.bot/policies/privacy-policy and "
                                              "https://anki.bot/policies/terms-of-service"))
     parser.add_argument("-e", "--email", help="The email used by your Stratus account.")
