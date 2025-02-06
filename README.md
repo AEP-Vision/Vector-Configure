@@ -1,6 +1,6 @@
 ![Vector](https://github.com/AEP-Vision/Vector-Configure/blob/master/images/config2.png?raw=true)
 
-### How to Use
+### Onboard
 
 Install Python and run ``pip install anki_vector``.
 
