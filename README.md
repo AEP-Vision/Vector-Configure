@@ -6,7 +6,7 @@ Install Python and run ``pip install anki_vector``.
 
 Locate the "configure" folder and replace it with the 2.0 folder ([download replacement here](https://github.com/AEP-Vision/Vector-Configure/releases)).
 
-Onboard using your Stratus account using ``python3 -m pip install --user anki_vector``
+Onboard using your Stratus account using ``python3 -m anki_vector.configure``
 
 ### Notes
 
