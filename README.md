@@ -12,6 +12,4 @@ Onboard using your Stratus account using ``python3 -m anki_vector.configure``
 
 SDK will *only* work as tested on Python 2.9
 
-Animation handling *will* fail. Avoid this as much as possible, I’m working to fix it.
-
 Use of Vector and Configure 2.0 is subject to Anki's [Privacy Policy](https://anki.bot/policies/privacy-policy) and [Terms of Service](https://anki.bot/policies/terms-of-service).
